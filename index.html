@@ -1,1 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew H | Drone & Media</title>
+    <style>
+        /* Modern Minimalist Reset & Variables */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
 
+        body {
+            background-color: #0d0e12;
+            color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        /* Container designed strictly for mobile viewports */
+        .container {
+            width: 100%;
+            max-width: 480px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Profile Details */
+        .profile-img {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            border: 2px solid #2563eb;
+            object-fit: cover;
+            margin-bottom: 16px;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.025em;
+            margin-bottom: 4px;
+        }
+
+        .tagline {
+            font-size: 0.95rem;
+            color: #9ca3af;
+            margin-bottom: 8px;
+        }
+
+        .location {
+            font-size: 0.85rem;
+            color: #6b7280;
+            margin-bottom: 32px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        /* Section Headings */
+        .section-title {
+            width: 100%;
+            text-align: left;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #4b5563;
+            margin: 24px 0 12px 4px;
+            font-weight: 600;
+        }
+
+        /* Links & Action Cards */
+        .link-card {
+            width: 100%;
+            background-color: #1f2937;
+            border: 1px solid #374151;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+            color: #f3f4f6;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .link-card:hover {
+            transform: translateY(-2px);
+            border-color: #2563eb;
+        }
+
+        .link-info {
+            text-align: left;
+        }
+
+        .link-title {
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 2px;
+        }
+
+        .link-desc {
+            font-size: 0.8rem;
+            color: #9ca3af;
+        }
+
+        .arrow-icon {
+            color: #6b7280;
+            font-size: 1.2rem;
+        }
+
+        /* Featured Badge / Highlight Style */
+        .featured {
+            border: 1px solid #2563eb;
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        }
+
+        /* Info Block (For Certifications/Meta Data) */
+        .info-block {
+            width: 100%;
+            background-color: #111827;
+            border: 1px solid #1f2937;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            text-align: left;
+        }
+
+        .info-item {
+            font-size: 0.9rem;
+            margin-bottom: 6px;
+            color: #d1d5db;
+        }
+        
+        .info-item:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Footer styling */
+        footer {
+            margin-top: 40px;
+            font-size: 0.75rem;
+            color: #4b5563;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img class="profile-img" src="avatar.png" alt="Andrew H">
+        <h1>Andrew H</h1>
+        <p class="tagline">Aerial Media & Digital Content Creator</p>
+        <div class="location">📍 Kamloops & Knutsford, BC</div>
+
+        <div class="section-title">Latest Project</div>
+        <a href="YOUR_INSTAGRAM_REEL_LINK" class="link-card featured">
+            <div class="link-info">
+                <div class="link-title">🎾 KTC Dome De-Assembly</div>
+                <div class="link-desc">Cinematic 4K drone & gimbal recap reel.</div>
+            </div>
+            <div class="arrow-icon">→</div>
+        </a>
+
+        <div class="section-title">Portfolios & Services</div>
+        
+        <a href="YOUR_INSTAGRAM_PROFILE_LINK" class="link-card">
+            <div class="link-info">
+                <div class="link-title">🚁 Instagram Grid</div>
+                <div class="link-desc">View full collection of aerial photography.</div>
+            </div>
+            <div class="arrow-icon">→</div>
+        </a>
+
+        <a href="YOUR_GOOGLE_DRIVE_OR_DROPBOX_LINK" class="link-card">
+            <div class="link-info">
+                <div class="link-title">📁 High-Res Video Samples</div>
+                <div class="link-desc">Raw and edited 4K commercial files.</div>
+            </div>
+            <div class="arrow-icon">→</div>
+        </a>
+
+        <div class="section-title">Qualifications</div>
+        <div class="info-block">
+            <div class="info-item">🛡️ <strong>Safety-First Operator:</strong> Sub-250g specialized category.</div>
+            <div class="info-item">🎓 <strong>Media Leadership:</strong> Media Lead & Content Coordinator.</div>
+        </div>
+
+        <div class="section-title">Inquiries</div>
+        <a href="mailto:yourname@email.com" class="link-card" style="background-color: #2563eb; border: none;">
+            <div class="link-info">
+                <div class="link-title" style="color: #ffffff;">📩 Book a Shoot</div>
+                <div class="link-desc" style="color: #bfdbfe;">Get a custom quote via email.</div>
+            </div>
+            <div class="arrow-icon" style="color: #ffffff;">→</div>
+        </a>
+
+        <footer>© 2026 Andrew H. All rights reserved.</footer>
+    </div>
+
+</body>
+</html>
